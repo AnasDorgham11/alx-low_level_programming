@@ -5,6 +5,7 @@
 /**
  * 1-Last_digit
  *
+ * Return: Always 0 
  */
 
 int main(void)
