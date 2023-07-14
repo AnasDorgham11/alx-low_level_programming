@@ -1,13 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - Entry point
- * 
- * Checks if the last digit greater than 5 or zero or otherwise
- * 
- * Return: Always 0 (Success)
+ * main - Prints the last digit of a generated number int n
+ *        and whether it is greater than 5, 0 or otherwise.
+ *
+ * Return: Always 0.
  */
+
 int main(void)
 {
 	int n;
