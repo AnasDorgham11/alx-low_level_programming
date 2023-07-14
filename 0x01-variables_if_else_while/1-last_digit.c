@@ -3,9 +3,11 @@
 #include <stdio.h>
 
 /**
- * 1-Last_digit
- *
- * Return: Always 0 
+ * main - Entry point
+ * 
+ * Checks if the last digit greater than 5 or zero or otherwise
+ * 
+ * Return: Always 0 (Success)
  */
 
 int main(void)
