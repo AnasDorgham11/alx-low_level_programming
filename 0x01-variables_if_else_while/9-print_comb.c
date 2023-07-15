@@ -11,9 +11,7 @@
 
 int main(void)
 {
-	int i;
-	char comma = 44;
-	char b_space = 32; 
+	int i, comma = 44, b_space = 32; 
 
 	for (i = 48; i <= 57; i++)
 	{
