@@ -4,7 +4,7 @@
 
 /**
  * main - Entry point
- * description - a to z
+ * description - 0 to 9 with ", "
  *
  * Return: Always 0 (Success)
  */
@@ -12,8 +12,8 @@
 int main(void)
 {
 	int i;
-	char comma = 44
-	char b_space = 32 
+	char comma = 44;
+	char b_space = 32; 
 
 	for (i = 48; i <= 57; i++)
 	{
