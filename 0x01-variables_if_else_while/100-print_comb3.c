@@ -11,25 +11,25 @@
 
 int main(void)
 {
-		int i, j, comma = 44, b_space = 32;
+	int i, j, comma = 44, b_space = 32;
 
-		for (i = 48; i <= 57; i++)
+	for (i = 48; i <= 57; i++)
+	{
+		for (j = i+1; j <= 57; j++)
 		{
-		   for (j = i+1; j <= 57; j++)
-		   {
-				putchar(i);
-				putchar(j);
-					if (i == 56 && j == 57)
+			putchar(i);
+			putchar(j);
+			if (i == 56 && j == 57)
+				{
+					break;
+				}
+				else
 					{
-						break;
-					}
-					else
-						{
-							putchar(comma);
-							putchar(b_space);
-						}   
-			}
+						putchar(comma);
+						putchar(b_space);
+					}   
 		}
+	}
 	putchar('\n');
 	return (0);
 }
