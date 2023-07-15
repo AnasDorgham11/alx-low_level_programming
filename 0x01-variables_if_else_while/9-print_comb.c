@@ -17,15 +17,15 @@ int main(void)
 
 	for (i = 48; i <= 57; i++)
 	{
+		putchar(i);
 		if (i < 57)
 		{		
-			putchar(i);
 			putchar(comma);
 			putchar(b_space);
 		}
 		else
 		{
-			putchar(i);
+			break;
 		}
 	}
 		putchar('\n');
