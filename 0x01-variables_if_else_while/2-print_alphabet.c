@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  * description - a to z
- * 
+ *
  * Return: Always 0 (Success)
  */
 
