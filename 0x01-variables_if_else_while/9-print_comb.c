@@ -11,12 +11,22 @@
 
 int main(void)
 {
-	char i;
+	int i;
+	char comma = 44
+	char b_space = 32 
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (i = 48; i <= 57; i++)
 	{
-		putchar(i);
-		putchar(', ');
+		if (i < 57)
+		{		
+			putchar(i);
+			putchar(comma);
+			putchar(b_space);
+		}
+		else
+		{
+			putchar(i);
+		}
 	}
 		putchar('\n');
 		return (0);
