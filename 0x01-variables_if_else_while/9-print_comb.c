@@ -11,13 +11,13 @@
 
 int main(void)
 {
-	int i, comma = 44, b_space = 32; 
+	int i, comma = 44, b_space = 32;
 
 	for (i = 48; i <= 57; i++)
 	{
 		putchar(i);
 		if (i < 57)
-		{		
+		{	
 			putchar(comma);
 			putchar(b_space);
 		}
