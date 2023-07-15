@@ -17,7 +17,7 @@ int main(void)
 	{
 		putchar(i);
 		if (i < 57)
-		{	
+		{
 			putchar(comma);
 			putchar(b_space);
 		}
