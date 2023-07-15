@@ -15,19 +15,19 @@ int main(void)
 
 	for (i = 48; i <= 57; i++)
 	{
-		for (j = i+1; j <= 57; j++)
+		for (j = i + 1; j <= 57; j++)
 		{
 			putchar(i);
 			putchar(j);
 			if (i == 56 && j == 57)
-				{
-					break;
-				}
-				else
-					{
-						putchar(comma);
-						putchar(b_space);
-					}   
+			{
+				break;
+			}
+			else
+			{
+				putchar(comma);
+				putchar(b_space);
+			}
 		}
 	}
 	putchar('\n');
